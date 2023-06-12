@@ -1,0 +1,32 @@
+.offerZone{
+  width: 90%;
+  aspect-ratio: 8/1;
+  object-fit: cover;
+}
+.offerZone .offer{
+  width: 100%;
+  height: 100%;
+}
+.offerZone .offer img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 1200px){
+  .offerZone{
+    aspect-ratio: 6/1;
+  }
+}
+@media screen and (max-width: 900px){
+  .offerZone{
+    aspect-ratio: 5/1;
+  }
+}
+@media screen and (max-width: 600px){
+  .offerZone{
+    aspect-ratio: 3/1;
+  }
+}
