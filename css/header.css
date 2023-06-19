@@ -21,7 +21,7 @@ html{
 .head .top .signin button{
   color: #fff;
   padding: 10px 20px;
-  background: var(--themeCol);
+  background: linear-gradient(90deg,#C12FFF,#FF008F);
   border-radius: 2px;
   
 }
@@ -29,6 +29,6 @@ html{
   border: 2px solid var(--themeCol);
   width: 75px;
   aspect-ratio: 1/1;
-  border-radius: 50%;
+  border-radius: 2%;
   object-view-box: -10px;
 }
